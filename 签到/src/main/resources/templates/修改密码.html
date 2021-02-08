@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>修改密码</title>
+    <link rel="stylesheet" href="../css/修改密码.css" type="text/css">
+</head>
+<body>
+    <div id="change">
+    <h1>修改密码</h1>
+            <div class="inputText">
+                <form role="form" action="/user/update" method="get">
+                <div class="w1">学号:</div>
+                <input type="text" name="username" placeholder="请输入学号" />
+            </div>
+            <div class="inputText">
+                <div class="w2">原密码:</div>
+                <input type="password" name="password" placeholder="请输入原密码" />
+            </div>
+            <div class="inputText">
+                <div class="w3">新密码:</div>
+                <input type="password" name="password1" placeholder="请输入新密码" />
+            </div>
+        <input class="sure" type="submit" value="确认修改" />
+    </div>
+</body>
+</html>
